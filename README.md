@@ -90,9 +90,11 @@ What my detections in [soc-log-triage](https://github.com/1ungaka/soc-log-triage
 
 **Data & tooling** &nbsp; ![Pandas](https://img.shields.io/badge/Pandas-150458?style=flat-square&logo=pandas&logoColor=white) ![NumPy](https://img.shields.io/badge/NumPy-013243?style=flat-square&logo=numpy&logoColor=white) ![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black) ![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white) ![GitHub Actions](https://img.shields.io/badge/GitHub%20Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white)
 
-## Certifications
+## Certifications in progress
 
-![CompTIA Security+](https://img.shields.io/badge/CompTIA-Security%2B-C8202F?style=for-the-badge) ![Microsoft AZ-900](https://img.shields.io/badge/Microsoft-Azure%20Fundamentals%20(AZ--900)-0078D4?style=for-the-badge&logo=microsoftazure&logoColor=white)
+![CompTIA Security+, in progress](https://img.shields.io/badge/CompTIA%20Security%2B-in%20progress-C8202F?style=for-the-badge) ![Microsoft AZ-900, in progress](https://img.shields.io/badge/Microsoft%20AZ--900-in%20progress-0078D4?style=for-the-badge&logo=microsoftazure&logoColor=white)
+
+Studying for CompTIA Security+ and Microsoft Azure Fundamentals (AZ-900).
 
 ## Beyond security
 
