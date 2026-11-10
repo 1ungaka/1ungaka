@@ -25,9 +25,9 @@ I'm a Computer Science student at the University of Fort Hare working towards a 
 <td width="50%" valign="top">
 
 ### [soc-log-triage](https://github.com/1ungaka/soc-log-triage)
-Turns Linux `auth.log` / auditd, Windows Security, Sysmon and domain controller logs into **ATT&CK-mapped alerts**. Detects brute force, password spraying, Kerberoasting, AS-REP roasting, encoded PowerShell, Office macros spawning shells, backdoor admins and log clearing.
+Turns Linux `auth.log` / auditd, Windows Security, Sysmon, domain controller and web server logs into **ATT&CK-mapped alerts**. Detects brute force, password spraying, Kerberoasting, AS-REP roasting, encoded PowerShell, Office macros spawning shells, backdoor admins, log clearing, web path traversal and scanning.
 
-`11 detections` `98 tests` `Sigma rules validated in CI`
+`16 detections` `131 tests` `Sigma rules validated in CI`
 
 ![Python](https://img.shields.io/badge/-Python-3776AB?style=flat-square&logo=python&logoColor=white) ![Sigma](https://img.shields.io/badge/-Sigma-1f6feb?style=flat-square) ![MITRE ATT&CK](https://img.shields.io/badge/-MITRE%20ATT%26CK-c62828?style=flat-square)
 
@@ -73,7 +73,8 @@ What my detections in [soc-log-triage](https://github.com/1ungaka/soc-log-triage
 
 | Tactic | Techniques I detect |
 |---|---|
-| Initial Access | T1566.001 Spearphishing Attachment |
+| Reconnaissance | T1595.002 Vulnerability Scanning · T1595.003 Wordlist Scanning |
+| Initial Access | T1566.001 Spearphishing Attachment · T1190 Exploit Public-Facing Application |
 | Execution | T1059.001 PowerShell · T1204.002 Malicious File |
 | Persistence | T1136.001 Create Local Account · T1098 Account Manipulation |
 | Privilege Escalation | T1098 Account Manipulation (privileged groups) |
